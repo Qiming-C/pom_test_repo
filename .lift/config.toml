@@ -1,0 +1,2 @@
+tools = []
+customTools = [".lift/make-pr.sh"]
