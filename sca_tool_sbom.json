@@ -1,0 +1,2939 @@
+{
+  "bomFormat" : "CycloneDX",
+  "specVersion" : "1.4",
+  "version" : 1,
+  "metadata" : {
+    "timestamp" : "2022-10-07T19:15:46Z",
+    "tools" : [
+      {
+        "name" : "Sonatype Lift",
+        "version" : "1.0.49-SNAPSHOT"
+      }
+    ],
+    "component" : {
+      "name" : "scanned-application",
+      "version" : "1.0",
+      "type" : "application",
+      "bom-ref" : "scanned-application"
+    }
+  },
+  "components" : [
+    {
+      "name" : "pom_test_repo",
+      "version" : "1.0.0-SNAPSHOT",
+      "purl" : "pkg:maven/com.jimmy.test/pom_test_repo@1.0.0-SNAPSHOT",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.jimmy.test/pom_test_repo@1.0.0-SNAPSHOT"
+    },
+    {
+      "name" : "postgresql",
+      "version" : "42.3.2",
+      "purl" : "pkg:maven/org.postgresql/postgresql@42.3.2",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.postgresql/postgresql@42.3.2"
+    },
+    {
+      "name" : "checker-qual",
+      "version" : "3.5.0",
+      "purl" : "pkg:maven/org.checkerframework/checker-qual@3.5.0",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.checkerframework/checker-qual@3.5.0"
+    },
+    {
+      "name" : "log4j",
+      "version" : "1.2.17",
+      "purl" : "pkg:maven/log4j/log4j@1.2.17",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/log4j/log4j@1.2.17"
+    },
+    {
+      "name" : "jackson-databind",
+      "version" : "2.10.1",
+      "purl" : "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.10.1",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.10.1"
+    },
+    {
+      "name" : "jackson-annotations",
+      "version" : "2.10.1",
+      "purl" : "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.10.1",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.10.1"
+    },
+    {
+      "name" : "jackson-core",
+      "version" : "2.10.1",
+      "purl" : "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.10.1",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.10.1"
+    },
+    {
+      "name" : "spark-core_2.12",
+      "version" : "3.1.2",
+      "purl" : "pkg:maven/org.apache.spark/spark-core_2.12@3.1.2",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.spark/spark-core_2.12@3.1.2"
+    },
+    {
+      "name" : "paranamer",
+      "version" : "2.8",
+      "purl" : "pkg:maven/com.thoughtworks.paranamer/paranamer@2.8",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.thoughtworks.paranamer/paranamer@2.8"
+    },
+    {
+      "name" : "avro",
+      "version" : "1.8.2",
+      "purl" : "pkg:maven/org.apache.avro/avro@1.8.2",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.avro/avro@1.8.2"
+    },
+    {
+      "name" : "jackson-core-asl",
+      "version" : "1.9.13",
+      "purl" : "pkg:maven/org.codehaus.jackson/jackson-core-asl@1.9.13",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.codehaus.jackson/jackson-core-asl@1.9.13"
+    },
+    {
+      "name" : "jackson-mapper-asl",
+      "version" : "1.9.13",
+      "purl" : "pkg:maven/org.codehaus.jackson/jackson-mapper-asl@1.9.13",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.codehaus.jackson/jackson-mapper-asl@1.9.13"
+    },
+    {
+      "name" : "snappy-java",
+      "version" : "1.1.8.2",
+      "purl" : "pkg:maven/org.xerial.snappy/snappy-java@1.1.8.2",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.xerial.snappy/snappy-java@1.1.8.2"
+    },
+    {
+      "name" : "commons-compress",
+      "version" : "1.8.1",
+      "purl" : "pkg:maven/org.apache.commons/commons-compress@1.8.1",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.commons/commons-compress@1.8.1"
+    },
+    {
+      "name" : "xz",
+      "version" : "1.5",
+      "purl" : "pkg:maven/org.tukaani/xz@1.5",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.tukaani/xz@1.5"
+    },
+    {
+      "name" : "slf4j-api",
+      "version" : "1.7.30",
+      "purl" : "pkg:maven/org.slf4j/slf4j-api@1.7.30",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.slf4j/slf4j-api@1.7.30"
+    },
+    {
+      "name" : "avro-mapred",
+      "version" : "1.8.2",
+      "purl" : "pkg:maven/org.apache.avro/avro-mapred@1.8.2",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.avro/avro-mapred@1.8.2"
+    },
+    {
+      "name" : "avro-ipc",
+      "version" : "1.8.2",
+      "purl" : "pkg:maven/org.apache.avro/avro-ipc@1.8.2",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.avro/avro-ipc@1.8.2"
+    },
+    {
+      "name" : "commons-codec",
+      "version" : "1.9",
+      "purl" : "pkg:maven/commons-codec/commons-codec@1.9",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/commons-codec/commons-codec@1.9"
+    },
+    {
+      "name" : "chill_2.12",
+      "version" : "0.9.5",
+      "purl" : "pkg:maven/com.twitter/chill_2.12@0.9.5",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.twitter/chill_2.12@0.9.5"
+    },
+    {
+      "name" : "scala-library",
+      "version" : "2.12.10",
+      "purl" : "pkg:maven/org.scala-lang/scala-library@2.12.10",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.scala-lang/scala-library@2.12.10"
+    },
+    {
+      "name" : "chill-java",
+      "version" : "0.9.5",
+      "purl" : "pkg:maven/com.twitter/chill-java@0.9.5",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.twitter/chill-java@0.9.5"
+    },
+    {
+      "name" : "kryo-shaded",
+      "version" : "4.0.2",
+      "purl" : "pkg:maven/com.esotericsoftware/kryo-shaded@4.0.2",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.esotericsoftware/kryo-shaded@4.0.2"
+    },
+    {
+      "name" : "minlog",
+      "version" : "1.3.0",
+      "purl" : "pkg:maven/com.esotericsoftware/minlog@1.3.0",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.esotericsoftware/minlog@1.3.0"
+    },
+    {
+      "name" : "objenesis",
+      "version" : "2.5.1",
+      "purl" : "pkg:maven/org.objenesis/objenesis@2.5.1",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.objenesis/objenesis@2.5.1"
+    },
+    {
+      "name" : "xbean-asm7-shaded",
+      "version" : "4.15",
+      "purl" : "pkg:maven/org.apache.xbean/xbean-asm7-shaded@4.15",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.xbean/xbean-asm7-shaded@4.15"
+    },
+    {
+      "name" : "hadoop-client",
+      "version" : "3.2.0",
+      "purl" : "pkg:maven/org.apache.hadoop/hadoop-client@3.2.0",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.hadoop/hadoop-client@3.2.0"
+    },
+    {
+      "name" : "hadoop-common",
+      "version" : "3.2.0",
+      "purl" : "pkg:maven/org.apache.hadoop/hadoop-common@3.2.0",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.hadoop/hadoop-common@3.2.0"
+    },
+    {
+      "name" : "hadoop-annotations",
+      "version" : "3.2.0",
+      "purl" : "pkg:maven/org.apache.hadoop/hadoop-annotations@3.2.0",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.hadoop/hadoop-annotations@3.2.0"
+    },
+    {
+      "name" : "guava",
+      "version" : "11.0.2",
+      "purl" : "pkg:maven/com.google.guava/guava@11.0.2",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.google.guava/guava@11.0.2"
+    },
+    {
+      "name" : "jsr305",
+      "version" : "3.0.0",
+      "purl" : "pkg:maven/com.google.code.findbugs/jsr305@3.0.0",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.google.code.findbugs/jsr305@3.0.0"
+    },
+    {
+      "name" : "commons-cli",
+      "version" : "1.2",
+      "purl" : "pkg:maven/commons-cli/commons-cli@1.2",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/commons-cli/commons-cli@1.2"
+    },
+    {
+      "name" : "commons-math3",
+      "version" : "3.4.1",
+      "purl" : "pkg:maven/org.apache.commons/commons-math3@3.4.1",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.commons/commons-math3@3.4.1"
+    },
+    {
+      "name" : "httpclient",
+      "version" : "4.5.2",
+      "purl" : "pkg:maven/org.apache.httpcomponents/httpclient@4.5.2",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.httpcomponents/httpclient@4.5.2"
+    },
+    {
+      "name" : "httpcore",
+      "version" : "4.4.4",
+      "purl" : "pkg:maven/org.apache.httpcomponents/httpcore@4.4.4",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.httpcomponents/httpcore@4.4.4"
+    },
+    {
+      "name" : "commons-io",
+      "version" : "2.5",
+      "purl" : "pkg:maven/commons-io/commons-io@2.5",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/commons-io/commons-io@2.5"
+    },
+    {
+      "name" : "commons-net",
+      "version" : "3.1",
+      "purl" : "pkg:maven/commons-net/commons-net@3.1",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/commons-net/commons-net@3.1"
+    },
+    {
+      "name" : "commons-collections",
+      "version" : "3.2.2",
+      "purl" : "pkg:maven/commons-collections/commons-collections@3.2.2",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/commons-collections/commons-collections@3.2.2"
+    },
+    {
+      "name" : "jetty-servlet",
+      "version" : "9.3.24.v20180605",
+      "purl" : "pkg:maven/org.eclipse.jetty/jetty-servlet@9.3.24.v20180605",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.eclipse.jetty/jetty-servlet@9.3.24.v20180605"
+    },
+    {
+      "name" : "jetty-security",
+      "version" : "9.3.24.v20180605",
+      "purl" : "pkg:maven/org.eclipse.jetty/jetty-security@9.3.24.v20180605",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.eclipse.jetty/jetty-security@9.3.24.v20180605"
+    },
+    {
+      "name" : "jsp-api",
+      "version" : "2.1",
+      "purl" : "pkg:maven/javax.servlet.jsp/jsp-api@2.1",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/javax.servlet.jsp/jsp-api@2.1"
+    },
+    {
+      "name" : "commons-beanutils",
+      "version" : "1.9.3",
+      "purl" : "pkg:maven/commons-beanutils/commons-beanutils@1.9.3",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/commons-beanutils/commons-beanutils@1.9.3"
+    },
+    {
+      "name" : "commons-configuration2",
+      "version" : "2.1.1",
+      "purl" : "pkg:maven/org.apache.commons/commons-configuration2@2.1.1",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.commons/commons-configuration2@2.1.1"
+    },
+    {
+      "name" : "commons-lang3",
+      "version" : "3.10",
+      "purl" : "pkg:maven/org.apache.commons/commons-lang3@3.10",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.commons/commons-lang3@3.10"
+    },
+    {
+      "name" : "commons-text",
+      "version" : "1.6",
+      "purl" : "pkg:maven/org.apache.commons/commons-text@1.6",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.commons/commons-text@1.6"
+    },
+    {
+      "name" : "re2j",
+      "version" : "1.1",
+      "purl" : "pkg:maven/com.google.re2j/re2j@1.1",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.google.re2j/re2j@1.1"
+    },
+    {
+      "name" : "protobuf-java",
+      "version" : "2.5.0",
+      "purl" : "pkg:maven/com.google.protobuf/protobuf-java@2.5.0",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.google.protobuf/protobuf-java@2.5.0"
+    },
+    {
+      "name" : "gson",
+      "version" : "2.2.4",
+      "purl" : "pkg:maven/com.google.code.gson/gson@2.2.4",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.google.code.gson/gson@2.2.4"
+    },
+    {
+      "name" : "hadoop-auth",
+      "version" : "3.2.0",
+      "purl" : "pkg:maven/org.apache.hadoop/hadoop-auth@3.2.0",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.hadoop/hadoop-auth@3.2.0"
+    },
+    {
+      "name" : "nimbus-jose-jwt",
+      "version" : "4.41.1",
+      "purl" : "pkg:maven/com.nimbusds/nimbus-jose-jwt@4.41.1",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.nimbusds/nimbus-jose-jwt@4.41.1"
+    },
+    {
+      "name" : "jcip-annotations",
+      "version" : "1.0-1",
+      "purl" : "pkg:maven/com.github.stephenc.jcip/jcip-annotations@1.0-1",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.github.stephenc.jcip/jcip-annotations@1.0-1"
+    },
+    {
+      "name" : "json-smart",
+      "version" : "2.3",
+      "purl" : "pkg:maven/net.minidev/json-smart@2.3",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/net.minidev/json-smart@2.3"
+    },
+    {
+      "name" : "accessors-smart",
+      "version" : "1.2",
+      "purl" : "pkg:maven/net.minidev/accessors-smart@1.2",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/net.minidev/accessors-smart@1.2"
+    },
+    {
+      "name" : "curator-framework",
+      "version" : "2.13.0",
+      "purl" : "pkg:maven/org.apache.curator/curator-framework@2.13.0",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.curator/curator-framework@2.13.0"
+    },
+    {
+      "name" : "kerb-simplekdc",
+      "version" : "1.0.1",
+      "purl" : "pkg:maven/org.apache.kerby/kerb-simplekdc@1.0.1",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.kerby/kerb-simplekdc@1.0.1"
+    },
+    {
+      "name" : "curator-client",
+      "version" : "2.12.0",
+      "purl" : "pkg:maven/org.apache.curator/curator-client@2.12.0",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.curator/curator-client@2.12.0"
+    },
+    {
+      "name" : "curator-recipes",
+      "version" : "2.13.0",
+      "purl" : "pkg:maven/org.apache.curator/curator-recipes@2.13.0",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.curator/curator-recipes@2.13.0"
+    },
+    {
+      "name" : "htrace-core4",
+      "version" : "4.1.0-incubating",
+      "purl" : "pkg:maven/org.apache.htrace/htrace-core4@4.1.0-incubating",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.htrace/htrace-core4@4.1.0-incubating"
+    },
+    {
+      "name" : "kerb-client",
+      "version" : "1.0.1",
+      "purl" : "pkg:maven/org.apache.kerby/kerb-client@1.0.1",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.kerby/kerb-client@1.0.1"
+    },
+    {
+      "name" : "kerby-config",
+      "version" : "1.0.1",
+      "purl" : "pkg:maven/org.apache.kerby/kerby-config@1.0.1",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.kerby/kerby-config@1.0.1"
+    },
+    {
+      "name" : "kerb-core",
+      "version" : "1.0.1",
+      "purl" : "pkg:maven/org.apache.kerby/kerb-core@1.0.1",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.kerby/kerb-core@1.0.1"
+    },
+    {
+      "name" : "kerby-pkix",
+      "version" : "1.0.1",
+      "purl" : "pkg:maven/org.apache.kerby/kerby-pkix@1.0.1",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.kerby/kerby-pkix@1.0.1"
+    },
+    {
+      "name" : "kerby-asn1",
+      "version" : "1.0.1",
+      "purl" : "pkg:maven/org.apache.kerby/kerby-asn1@1.0.1",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.kerby/kerby-asn1@1.0.1"
+    },
+    {
+      "name" : "kerby-util",
+      "version" : "1.0.1",
+      "purl" : "pkg:maven/org.apache.kerby/kerby-util@1.0.1",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.kerby/kerby-util@1.0.1"
+    },
+    {
+      "name" : "kerb-common",
+      "version" : "1.0.1",
+      "purl" : "pkg:maven/org.apache.kerby/kerb-common@1.0.1",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.kerby/kerb-common@1.0.1"
+    },
+    {
+      "name" : "kerb-crypto",
+      "version" : "1.0.1",
+      "purl" : "pkg:maven/org.apache.kerby/kerb-crypto@1.0.1",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.kerby/kerb-crypto@1.0.1"
+    },
+    {
+      "name" : "kerb-util",
+      "version" : "1.0.1",
+      "purl" : "pkg:maven/org.apache.kerby/kerb-util@1.0.1",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.kerby/kerb-util@1.0.1"
+    },
+    {
+      "name" : "token-provider",
+      "version" : "1.0.1",
+      "purl" : "pkg:maven/org.apache.kerby/token-provider@1.0.1",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.kerby/token-provider@1.0.1"
+    },
+    {
+      "name" : "kerb-admin",
+      "version" : "1.0.1",
+      "purl" : "pkg:maven/org.apache.kerby/kerb-admin@1.0.1",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.kerby/kerb-admin@1.0.1"
+    },
+    {
+      "name" : "kerb-server",
+      "version" : "1.0.1",
+      "purl" : "pkg:maven/org.apache.kerby/kerb-server@1.0.1",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.kerby/kerb-server@1.0.1"
+    },
+    {
+      "name" : "kerb-identity",
+      "version" : "1.0.1",
+      "purl" : "pkg:maven/org.apache.kerby/kerb-identity@1.0.1",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.kerby/kerb-identity@1.0.1"
+    },
+    {
+      "name" : "kerby-xdr",
+      "version" : "1.0.1",
+      "purl" : "pkg:maven/org.apache.kerby/kerby-xdr@1.0.1",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.kerby/kerby-xdr@1.0.1"
+    },
+    {
+      "name" : "stax2-api",
+      "version" : "3.1.4",
+      "purl" : "pkg:maven/org.codehaus.woodstox/stax2-api@3.1.4",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.codehaus.woodstox/stax2-api@3.1.4"
+    },
+    {
+      "name" : "woodstox-core",
+      "version" : "5.0.3",
+      "purl" : "pkg:maven/com.fasterxml.woodstox/woodstox-core@5.0.3",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.fasterxml.woodstox/woodstox-core@5.0.3"
+    },
+    {
+      "name" : "dnsjava",
+      "version" : "2.1.7",
+      "purl" : "pkg:maven/dnsjava/dnsjava@2.1.7",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/dnsjava/dnsjava@2.1.7"
+    },
+    {
+      "name" : "hadoop-hdfs-client",
+      "version" : "3.2.0",
+      "purl" : "pkg:maven/org.apache.hadoop/hadoop-hdfs-client@3.2.0",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.hadoop/hadoop-hdfs-client@3.2.0"
+    },
+    {
+      "name" : "okhttp",
+      "version" : "2.7.5",
+      "purl" : "pkg:maven/com.squareup.okhttp/okhttp@2.7.5",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.squareup.okhttp/okhttp@2.7.5"
+    },
+    {
+      "name" : "okio",
+      "version" : "1.6.0",
+      "purl" : "pkg:maven/com.squareup.okio/okio@1.6.0",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.squareup.okio/okio@1.6.0"
+    },
+    {
+      "name" : "hadoop-yarn-api",
+      "version" : "3.2.0",
+      "purl" : "pkg:maven/org.apache.hadoop/hadoop-yarn-api@3.2.0",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.hadoop/hadoop-yarn-api@3.2.0"
+    },
+    {
+      "name" : "jaxb-api",
+      "version" : "2.2.11",
+      "purl" : "pkg:maven/javax.xml.bind/jaxb-api@2.2.11",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/javax.xml.bind/jaxb-api@2.2.11"
+    },
+    {
+      "name" : "hadoop-yarn-client",
+      "version" : "3.2.0",
+      "purl" : "pkg:maven/org.apache.hadoop/hadoop-yarn-client@3.2.0",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.hadoop/hadoop-yarn-client@3.2.0"
+    },
+    {
+      "name" : "hadoop-mapreduce-client-core",
+      "version" : "3.2.0",
+      "purl" : "pkg:maven/org.apache.hadoop/hadoop-mapreduce-client-core@3.2.0",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.hadoop/hadoop-mapreduce-client-core@3.2.0"
+    },
+    {
+      "name" : "hadoop-yarn-common",
+      "version" : "3.2.0",
+      "purl" : "pkg:maven/org.apache.hadoop/hadoop-yarn-common@3.2.0",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.hadoop/hadoop-yarn-common@3.2.0"
+    },
+    {
+      "name" : "jetty-util",
+      "version" : "9.3.24.v20180605",
+      "purl" : "pkg:maven/org.eclipse.jetty/jetty-util@9.3.24.v20180605",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.eclipse.jetty/jetty-util@9.3.24.v20180605"
+    },
+    {
+      "name" : "jackson-module-jaxb-annotations",
+      "version" : "2.9.5",
+      "purl" : "pkg:maven/com.fasterxml.jackson.module/jackson-module-jaxb-annotations@2.9.5",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.fasterxml.jackson.module/jackson-module-jaxb-annotations@2.9.5"
+    },
+    {
+      "name" : "jackson-jaxrs-json-provider",
+      "version" : "2.9.5",
+      "purl" : "pkg:maven/com.fasterxml.jackson.jaxrs/jackson-jaxrs-json-provider@2.9.5",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.fasterxml.jackson.jaxrs/jackson-jaxrs-json-provider@2.9.5"
+    },
+    {
+      "name" : "jackson-jaxrs-base",
+      "version" : "2.9.5",
+      "purl" : "pkg:maven/com.fasterxml.jackson.jaxrs/jackson-jaxrs-base@2.9.5",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.fasterxml.jackson.jaxrs/jackson-jaxrs-base@2.9.5"
+    },
+    {
+      "name" : "hadoop-mapreduce-client-jobclient",
+      "version" : "3.2.0",
+      "purl" : "pkg:maven/org.apache.hadoop/hadoop-mapreduce-client-jobclient@3.2.0",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.hadoop/hadoop-mapreduce-client-jobclient@3.2.0"
+    },
+    {
+      "name" : "hadoop-mapreduce-client-common",
+      "version" : "3.2.0",
+      "purl" : "pkg:maven/org.apache.hadoop/hadoop-mapreduce-client-common@3.2.0",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.hadoop/hadoop-mapreduce-client-common@3.2.0"
+    },
+    {
+      "name" : "spark-launcher_2.12",
+      "version" : "3.1.2",
+      "purl" : "pkg:maven/org.apache.spark/spark-launcher_2.12@3.1.2",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.spark/spark-launcher_2.12@3.1.2"
+    },
+    {
+      "name" : "spark-tags_2.12",
+      "version" : "3.1.2",
+      "purl" : "pkg:maven/org.apache.spark/spark-tags_2.12@3.1.2",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.spark/spark-tags_2.12@3.1.2"
+    },
+    {
+      "name" : "unused",
+      "version" : "1.0.0",
+      "purl" : "pkg:maven/org.spark-project.spark/unused@1.0.0",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.spark-project.spark/unused@1.0.0"
+    },
+    {
+      "name" : "spark-kvstore_2.12",
+      "version" : "3.1.2",
+      "purl" : "pkg:maven/org.apache.spark/spark-kvstore_2.12@3.1.2",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.spark/spark-kvstore_2.12@3.1.2"
+    },
+    {
+      "name" : "leveldbjni-all",
+      "version" : "1.8",
+      "purl" : "pkg:maven/org.fusesource.leveldbjni/leveldbjni-all@1.8",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.fusesource.leveldbjni/leveldbjni-all@1.8"
+    },
+    {
+      "name" : "spark-network-common_2.12",
+      "version" : "3.1.2",
+      "purl" : "pkg:maven/org.apache.spark/spark-network-common_2.12@3.1.2",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.spark/spark-network-common_2.12@3.1.2"
+    },
+    {
+      "name" : "netty-all",
+      "version" : "4.1.51.Final",
+      "purl" : "pkg:maven/io.netty/netty-all@4.1.51.Final",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.netty/netty-all@4.1.51.Final"
+    },
+    {
+      "name" : "metrics-core",
+      "version" : "4.1.1",
+      "purl" : "pkg:maven/io.dropwizard.metrics/metrics-core@4.1.1",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.dropwizard.metrics/metrics-core@4.1.1"
+    },
+    {
+      "name" : "commons-crypto",
+      "version" : "1.1.0",
+      "purl" : "pkg:maven/org.apache.commons/commons-crypto@1.1.0",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.commons/commons-crypto@1.1.0"
+    },
+    {
+      "name" : "RoaringBitmap",
+      "version" : "0.9.0",
+      "purl" : "pkg:maven/org.roaringbitmap/RoaringBitmap@0.9.0",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.roaringbitmap/RoaringBitmap@0.9.0"
+    },
+    {
+      "name" : "spark-network-shuffle_2.12",
+      "version" : "3.1.2",
+      "purl" : "pkg:maven/org.apache.spark/spark-network-shuffle_2.12@3.1.2",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.spark/spark-network-shuffle_2.12@3.1.2"
+    },
+    {
+      "name" : "spark-unsafe_2.12",
+      "version" : "3.1.2",
+      "purl" : "pkg:maven/org.apache.spark/spark-unsafe_2.12@3.1.2",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.spark/spark-unsafe_2.12@3.1.2"
+    },
+    {
+      "name" : "activation",
+      "version" : "1.1.1",
+      "purl" : "pkg:maven/javax.activation/activation@1.1.1",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/javax.activation/activation@1.1.1"
+    },
+    {
+      "name" : "zookeeper",
+      "version" : "3.4.14",
+      "purl" : "pkg:maven/org.apache.zookeeper/zookeeper@3.4.14",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.zookeeper/zookeeper@3.4.14"
+    },
+    {
+      "name" : "slf4j-log4j12",
+      "version" : "1.7.30",
+      "purl" : "pkg:maven/org.slf4j/slf4j-log4j12@1.7.30",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.slf4j/slf4j-log4j12@1.7.30"
+    },
+    {
+      "name" : "audience-annotations",
+      "version" : "0.5.0",
+      "purl" : "pkg:maven/org.apache.yetus/audience-annotations@0.5.0",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.yetus/audience-annotations@0.5.0"
+    },
+    {
+      "name" : "jakarta.servlet-api",
+      "version" : "4.0.3",
+      "purl" : "pkg:maven/jakarta.servlet/jakarta.servlet-api@4.0.3",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/jakarta.servlet/jakarta.servlet-api@4.0.3"
+    },
+    {
+      "name" : "jul-to-slf4j",
+      "version" : "1.7.30",
+      "purl" : "pkg:maven/org.slf4j/jul-to-slf4j@1.7.30",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.slf4j/jul-to-slf4j@1.7.30"
+    },
+    {
+      "name" : "jcl-over-slf4j",
+      "version" : "1.7.30",
+      "purl" : "pkg:maven/org.slf4j/jcl-over-slf4j@1.7.30",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.slf4j/jcl-over-slf4j@1.7.30"
+    },
+    {
+      "name" : "compress-lzf",
+      "version" : "1.0.3",
+      "purl" : "pkg:maven/com.ning/compress-lzf@1.0.3",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.ning/compress-lzf@1.0.3"
+    },
+    {
+      "name" : "lz4-java",
+      "version" : "1.7.1",
+      "purl" : "pkg:maven/org.lz4/lz4-java@1.7.1",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.lz4/lz4-java@1.7.1"
+    },
+    {
+      "name" : "zstd-jni",
+      "version" : "1.4.8-1",
+      "purl" : "pkg:maven/com.github.luben/zstd-jni@1.4.8-1",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.github.luben/zstd-jni@1.4.8-1"
+    },
+    {
+      "name" : "shims",
+      "version" : "0.9.0",
+      "purl" : "pkg:maven/org.roaringbitmap/shims@0.9.0",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.roaringbitmap/shims@0.9.0"
+    },
+    {
+      "name" : "scala-xml_2.12",
+      "version" : "1.2.0",
+      "purl" : "pkg:maven/org.scala-lang.modules/scala-xml_2.12@1.2.0",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.scala-lang.modules/scala-xml_2.12@1.2.0"
+    },
+    {
+      "name" : "scala-reflect",
+      "version" : "2.12.10",
+      "purl" : "pkg:maven/org.scala-lang/scala-reflect@2.12.10",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.scala-lang/scala-reflect@2.12.10"
+    },
+    {
+      "name" : "json4s-jackson_2.12",
+      "version" : "3.7.0-M5",
+      "purl" : "pkg:maven/org.json4s/json4s-jackson_2.12@3.7.0-M5",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.json4s/json4s-jackson_2.12@3.7.0-M5"
+    },
+    {
+      "name" : "json4s-core_2.12",
+      "version" : "3.7.0-M5",
+      "purl" : "pkg:maven/org.json4s/json4s-core_2.12@3.7.0-M5",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.json4s/json4s-core_2.12@3.7.0-M5"
+    },
+    {
+      "name" : "json4s-ast_2.12",
+      "version" : "3.7.0-M5",
+      "purl" : "pkg:maven/org.json4s/json4s-ast_2.12@3.7.0-M5",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.json4s/json4s-ast_2.12@3.7.0-M5"
+    },
+    {
+      "name" : "json4s-scalap_2.12",
+      "version" : "3.7.0-M5",
+      "purl" : "pkg:maven/org.json4s/json4s-scalap_2.12@3.7.0-M5",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.json4s/json4s-scalap_2.12@3.7.0-M5"
+    },
+    {
+      "name" : "jersey-client",
+      "version" : "2.30",
+      "purl" : "pkg:maven/org.glassfish.jersey.core/jersey-client@2.30",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.glassfish.jersey.core/jersey-client@2.30"
+    },
+    {
+      "name" : "jakarta.ws.rs-api",
+      "version" : "2.1.6",
+      "purl" : "pkg:maven/jakarta.ws.rs/jakarta.ws.rs-api@2.1.6",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/jakarta.ws.rs/jakarta.ws.rs-api@2.1.6"
+    },
+    {
+      "name" : "jersey-common",
+      "version" : "2.30",
+      "purl" : "pkg:maven/org.glassfish.jersey.core/jersey-common@2.30",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.glassfish.jersey.core/jersey-common@2.30"
+    },
+    {
+      "name" : "jakarta.inject",
+      "version" : "2.6.1",
+      "purl" : "pkg:maven/org.glassfish.hk2.external/jakarta.inject@2.6.1",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.glassfish.hk2.external/jakarta.inject@2.6.1"
+    },
+    {
+      "name" : "jakarta.annotation-api",
+      "version" : "1.3.5",
+      "purl" : "pkg:maven/jakarta.annotation/jakarta.annotation-api@1.3.5",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/jakarta.annotation/jakarta.annotation-api@1.3.5"
+    },
+    {
+      "name" : "osgi-resource-locator",
+      "version" : "1.0.3",
+      "purl" : "pkg:maven/org.glassfish.hk2/osgi-resource-locator@1.0.3",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.glassfish.hk2/osgi-resource-locator@1.0.3"
+    },
+    {
+      "name" : "jersey-server",
+      "version" : "2.30",
+      "purl" : "pkg:maven/org.glassfish.jersey.core/jersey-server@2.30",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.glassfish.jersey.core/jersey-server@2.30"
+    },
+    {
+      "name" : "jersey-media-jaxb",
+      "version" : "2.30",
+      "purl" : "pkg:maven/org.glassfish.jersey.media/jersey-media-jaxb@2.30",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.glassfish.jersey.media/jersey-media-jaxb@2.30"
+    },
+    {
+      "name" : "jakarta.validation-api",
+      "version" : "2.0.2",
+      "purl" : "pkg:maven/jakarta.validation/jakarta.validation-api@2.0.2",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/jakarta.validation/jakarta.validation-api@2.0.2"
+    },
+    {
+      "name" : "jersey-container-servlet",
+      "version" : "2.30",
+      "purl" : "pkg:maven/org.glassfish.jersey.containers/jersey-container-servlet@2.30",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.glassfish.jersey.containers/jersey-container-servlet@2.30"
+    },
+    {
+      "name" : "jersey-container-servlet-core",
+      "version" : "2.30",
+      "purl" : "pkg:maven/org.glassfish.jersey.containers/jersey-container-servlet-core@2.30",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.glassfish.jersey.containers/jersey-container-servlet-core@2.30"
+    },
+    {
+      "name" : "jersey-hk2",
+      "version" : "2.30",
+      "purl" : "pkg:maven/org.glassfish.jersey.inject/jersey-hk2@2.30",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.glassfish.jersey.inject/jersey-hk2@2.30"
+    },
+    {
+      "name" : "hk2-locator",
+      "version" : "2.6.1",
+      "purl" : "pkg:maven/org.glassfish.hk2/hk2-locator@2.6.1",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.glassfish.hk2/hk2-locator@2.6.1"
+    },
+    {
+      "name" : "aopalliance-repackaged",
+      "version" : "2.6.1",
+      "purl" : "pkg:maven/org.glassfish.hk2.external/aopalliance-repackaged@2.6.1",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.glassfish.hk2.external/aopalliance-repackaged@2.6.1"
+    },
+    {
+      "name" : "hk2-api",
+      "version" : "2.6.1",
+      "purl" : "pkg:maven/org.glassfish.hk2/hk2-api@2.6.1",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.glassfish.hk2/hk2-api@2.6.1"
+    },
+    {
+      "name" : "hk2-utils",
+      "version" : "2.6.1",
+      "purl" : "pkg:maven/org.glassfish.hk2/hk2-utils@2.6.1",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.glassfish.hk2/hk2-utils@2.6.1"
+    },
+    {
+      "name" : "javassist",
+      "version" : "3.25.0-GA",
+      "purl" : "pkg:maven/org.javassist/javassist@3.25.0-GA",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.javassist/javassist@3.25.0-GA"
+    },
+    {
+      "name" : "stream",
+      "version" : "2.9.6",
+      "purl" : "pkg:maven/com.clearspring.analytics/stream@2.9.6",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.clearspring.analytics/stream@2.9.6"
+    },
+    {
+      "name" : "metrics-jvm",
+      "version" : "4.1.1",
+      "purl" : "pkg:maven/io.dropwizard.metrics/metrics-jvm@4.1.1",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.dropwizard.metrics/metrics-jvm@4.1.1"
+    },
+    {
+      "name" : "metrics-json",
+      "version" : "4.1.1",
+      "purl" : "pkg:maven/io.dropwizard.metrics/metrics-json@4.1.1",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.dropwizard.metrics/metrics-json@4.1.1"
+    },
+    {
+      "name" : "metrics-graphite",
+      "version" : "4.1.1",
+      "purl" : "pkg:maven/io.dropwizard.metrics/metrics-graphite@4.1.1",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.dropwizard.metrics/metrics-graphite@4.1.1"
+    },
+    {
+      "name" : "metrics-jmx",
+      "version" : "4.1.1",
+      "purl" : "pkg:maven/io.dropwizard.metrics/metrics-jmx@4.1.1",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.dropwizard.metrics/metrics-jmx@4.1.1"
+    },
+    {
+      "name" : "jackson-module-scala_2.12",
+      "version" : "2.10.0",
+      "purl" : "pkg:maven/com.fasterxml.jackson.module/jackson-module-scala_2.12@2.10.0",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.fasterxml.jackson.module/jackson-module-scala_2.12@2.10.0"
+    },
+    {
+      "name" : "jackson-module-paranamer",
+      "version" : "2.10.0",
+      "purl" : "pkg:maven/com.fasterxml.jackson.module/jackson-module-paranamer@2.10.0",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.fasterxml.jackson.module/jackson-module-paranamer@2.10.0"
+    },
+    {
+      "name" : "ivy",
+      "version" : "2.4.0",
+      "purl" : "pkg:maven/org.apache.ivy/ivy@2.4.0",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.ivy/ivy@2.4.0"
+    },
+    {
+      "name" : "oro",
+      "version" : "2.0.8",
+      "purl" : "pkg:maven/oro/oro@2.0.8",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/oro/oro@2.0.8"
+    },
+    {
+      "name" : "pyrolite",
+      "version" : "4.30",
+      "purl" : "pkg:maven/net.razorvine/pyrolite@4.30",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/net.razorvine/pyrolite@4.30"
+    },
+    {
+      "name" : "py4j",
+      "version" : "0.10.9",
+      "purl" : "pkg:maven/net.sf.py4j/py4j@0.10.9",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/net.sf.py4j/py4j@0.10.9"
+    },
+    {
+      "name" : "flyway-core",
+      "version" : "7.1.1",
+      "purl" : "pkg:maven/org.flywaydb/flyway-core@7.1.1",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.flywaydb/flyway-core@7.1.1"
+    }
+  ],
+  "dependencies" : [
+    {
+      "ref" : "scanned-application",
+      "dependsOn" : [
+        "pkg:maven/com.jimmy.test/pom_test_repo@1.0.0-SNAPSHOT"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.curator/curator-recipes@2.13.0",
+      "dependsOn" : [
+        "pkg:maven/org.apache.curator/curator-framework@2.13.0"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/com.google.guava/guava@11.0.2",
+      "dependsOn" : [
+        "pkg:maven/com.google.code.findbugs/jsr305@3.0.0"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/log4j/log4j@1.2.17",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/com.google.code.gson/gson@2.2.4",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/jakarta.validation/jakarta.validation-api@2.0.2",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.ivy/ivy@2.4.0",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.hadoop/hadoop-yarn-client@3.2.0",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.hadoop/hadoop-mapreduce-client-core@3.2.0",
+      "dependsOn" : [
+        "pkg:maven/org.apache.hadoop/hadoop-yarn-client@3.2.0",
+        "pkg:maven/org.apache.hadoop/hadoop-yarn-common@3.2.0",
+        "pkg:maven/org.apache.hadoop/hadoop-hdfs-client@3.2.0",
+        "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.10.1",
+        "pkg:maven/com.google.protobuf/protobuf-java@2.5.0",
+        "pkg:maven/org.slf4j/slf4j-api@1.7.30"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.xerial.snappy/snappy-java@1.1.8.2",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.spark/spark-network-common_2.12@3.1.2",
+      "dependsOn" : [
+        "pkg:maven/org.scala-lang/scala-library@2.12.10",
+        "pkg:maven/io.netty/netty-all@4.1.51.Final",
+        "pkg:maven/org.apache.commons/commons-lang3@3.10",
+        "pkg:maven/org.fusesource.leveldbjni/leveldbjni-all@1.8",
+        "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.10.1",
+        "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.10.1",
+        "pkg:maven/io.dropwizard.metrics/metrics-core@4.1.1",
+        "pkg:maven/com.google.code.findbugs/jsr305@3.0.0",
+        "pkg:maven/org.apache.commons/commons-crypto@1.1.0",
+        "pkg:maven/org.roaringbitmap/RoaringBitmap@0.9.0",
+        "pkg:maven/org.spark-project.spark/unused@1.0.0"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/com.fasterxml.jackson.module/jackson-module-scala_2.12@2.10.0",
+      "dependsOn" : [
+        "pkg:maven/org.scala-lang/scala-library@2.12.10",
+        "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.10.1",
+        "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.10.1",
+        "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.10.1",
+        "pkg:maven/com.fasterxml.jackson.module/jackson-module-paranamer@2.10.0"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/jakarta.annotation/jakarta.annotation-api@1.3.5",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.scala-lang/scala-library@2.12.10",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.kerby/kerb-admin@1.0.1",
+      "dependsOn" : [
+        "pkg:maven/org.apache.kerby/kerb-server@1.0.1",
+        "pkg:maven/org.apache.kerby/kerb-util@1.0.1",
+        "pkg:maven/org.apache.kerby/kerby-xdr@1.0.1"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/com.twitter/chill-java@0.9.5",
+      "dependsOn" : [
+        "pkg:maven/com.esotericsoftware/kryo-shaded@4.0.2"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.slf4j/jcl-over-slf4j@1.7.30",
+      "dependsOn" : [
+        "pkg:maven/org.slf4j/slf4j-api@1.7.30"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.glassfish.hk2.external/jakarta.inject@2.6.1",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.roaringbitmap/shims@0.9.0",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.kerby/kerb-client@1.0.1",
+      "dependsOn" : [
+        "pkg:maven/org.apache.kerby/kerby-config@1.0.1",
+        "pkg:maven/org.apache.kerby/kerb-core@1.0.1",
+        "pkg:maven/org.apache.kerby/kerb-common@1.0.1",
+        "pkg:maven/org.apache.kerby/kerb-util@1.0.1",
+        "pkg:maven/org.apache.kerby/token-provider@1.0.1"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.kerby/kerb-identity@1.0.1",
+      "dependsOn" : [
+        "pkg:maven/org.apache.kerby/kerby-config@1.0.1",
+        "pkg:maven/org.apache.kerby/kerb-core@1.0.1"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.kerby/kerby-asn1@1.0.1",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/io.dropwizard.metrics/metrics-jmx@4.1.1",
+      "dependsOn" : [
+        "pkg:maven/io.dropwizard.metrics/metrics-core@4.1.1",
+        "pkg:maven/org.slf4j/slf4j-api@1.7.30"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.spark/spark-tags_2.12@3.1.2",
+      "dependsOn" : [
+        "pkg:maven/org.scala-lang/scala-library@2.12.10",
+        "pkg:maven/org.spark-project.spark/unused@1.0.0"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.curator/curator-framework@2.13.0",
+      "dependsOn" : [
+        "pkg:maven/org.apache.curator/curator-client@2.12.0"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/com.github.luben/zstd-jni@1.4.8-1",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/com.github.stephenc.jcip/jcip-annotations@1.0-1",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.json4s/json4s-ast_2.12@3.7.0-M5",
+      "dependsOn" : [
+        "pkg:maven/org.scala-lang/scala-library@2.12.10"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.glassfish.jersey.core/jersey-client@2.30",
+      "dependsOn" : [
+        "pkg:maven/jakarta.ws.rs/jakarta.ws.rs-api@2.1.6",
+        "pkg:maven/org.glassfish.jersey.core/jersey-common@2.30",
+        "pkg:maven/org.glassfish.hk2.external/jakarta.inject@2.6.1"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.glassfish.jersey.core/jersey-common@2.30",
+      "dependsOn" : [
+        "pkg:maven/jakarta.ws.rs/jakarta.ws.rs-api@2.1.6",
+        "pkg:maven/jakarta.annotation/jakarta.annotation-api@1.3.5",
+        "pkg:maven/org.glassfish.hk2.external/jakarta.inject@2.6.1",
+        "pkg:maven/org.glassfish.hk2/osgi-resource-locator@1.0.3"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/io.dropwizard.metrics/metrics-json@4.1.1",
+      "dependsOn" : [
+        "pkg:maven/io.dropwizard.metrics/metrics-core@4.1.1",
+        "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.10.1",
+        "pkg:maven/org.slf4j/slf4j-api@1.7.30"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.yetus/audience-annotations@0.5.0",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.commons/commons-lang3@3.10",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.codehaus.jackson/jackson-core-asl@1.9.13",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/commons-collections/commons-collections@3.2.2",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.kerby/kerb-util@1.0.1",
+      "dependsOn" : [
+        "pkg:maven/org.apache.kerby/kerby-config@1.0.1",
+        "pkg:maven/org.apache.kerby/kerb-core@1.0.1",
+        "pkg:maven/org.apache.kerby/kerb-crypto@1.0.1"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.spark/spark-launcher_2.12@3.1.2",
+      "dependsOn" : [
+        "pkg:maven/org.apache.spark/spark-tags_2.12@3.1.2",
+        "pkg:maven/org.spark-project.spark/unused@1.0.0"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.10.1",
+      "dependsOn" : [
+        "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.10.1",
+        "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.10.1"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.json4s/json4s-core_2.12@3.7.0-M5",
+      "dependsOn" : [
+        "pkg:maven/org.scala-lang/scala-library@2.12.10",
+        "pkg:maven/org.json4s/json4s-ast_2.12@3.7.0-M5",
+        "pkg:maven/org.json4s/json4s-scalap_2.12@3.7.0-M5",
+        "pkg:maven/com.thoughtworks.paranamer/paranamer@2.8"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.xbean/xbean-asm7-shaded@4.15",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.commons/commons-configuration2@2.1.1",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/io.dropwizard.metrics/metrics-core@4.1.1",
+      "dependsOn" : [
+        "pkg:maven/org.slf4j/slf4j-api@1.7.30"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.spark/spark-kvstore_2.12@3.1.2",
+      "dependsOn" : [
+        "pkg:maven/org.apache.spark/spark-tags_2.12@3.1.2",
+        "pkg:maven/org.fusesource.leveldbjni/leveldbjni-all@1.8",
+        "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.10.1",
+        "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.10.1",
+        "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.10.1",
+        "pkg:maven/org.spark-project.spark/unused@1.0.0"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.slf4j/jul-to-slf4j@1.7.30",
+      "dependsOn" : [
+        "pkg:maven/org.slf4j/slf4j-api@1.7.30"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.slf4j/slf4j-api@1.7.30",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.kerby/kerby-pkix@1.0.1",
+      "dependsOn" : [
+        "pkg:maven/org.apache.kerby/kerby-asn1@1.0.1",
+        "pkg:maven/org.apache.kerby/kerby-util@1.0.1",
+        "pkg:maven/org.slf4j/slf4j-api@1.7.30"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.zookeeper/zookeeper@3.4.14",
+      "dependsOn" : [
+        "pkg:maven/org.slf4j/slf4j-api@1.7.30",
+        "pkg:maven/org.slf4j/slf4j-log4j12@1.7.30",
+        "pkg:maven/log4j/log4j@1.2.17",
+        "pkg:maven/org.apache.yetus/audience-annotations@0.5.0"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.javassist/javassist@3.25.0-GA",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.glassfish.hk2/hk2-utils@2.6.1",
+      "dependsOn" : [
+        "pkg:maven/org.glassfish.hk2.external/jakarta.inject@2.6.1"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.glassfish.hk2.external/aopalliance-repackaged@2.6.1",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/com.fasterxml.jackson.module/jackson-module-jaxb-annotations@2.9.5",
+      "dependsOn" : [
+        "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.10.1",
+        "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.10.1",
+        "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.10.1"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.10.1",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.spark/spark-unsafe_2.12@3.1.2",
+      "dependsOn" : [
+        "pkg:maven/org.apache.spark/spark-tags_2.12@3.1.2",
+        "pkg:maven/com.twitter/chill_2.12@0.9.5",
+        "pkg:maven/com.google.code.findbugs/jsr305@3.0.0",
+        "pkg:maven/org.spark-project.spark/unused@1.0.0"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/com.clearspring.analytics/stream@2.9.6",
+      "dependsOn" : [
+        "pkg:maven/org.slf4j/slf4j-api@1.7.30"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.hadoop/hadoop-yarn-common@3.2.0",
+      "dependsOn" : [
+        "pkg:maven/org.apache.hadoop/hadoop-hdfs-client@3.2.0",
+        "pkg:maven/org.apache.hadoop/hadoop-yarn-api@3.2.0",
+        "pkg:maven/org.apache.hadoop/hadoop-auth@3.2.0",
+        "pkg:maven/javax.xml.bind/jaxb-api@2.2.11",
+        "pkg:maven/org.apache.commons/commons-compress@1.8.1",
+        "pkg:maven/commons-codec/commons-codec@1.9",
+        "pkg:maven/org.eclipse.jetty/jetty-util@9.3.24.v20180605",
+        "pkg:maven/com.google.guava/guava@11.0.2",
+        "pkg:maven/commons-cli/commons-cli@1.2",
+        "pkg:maven/org.slf4j/slf4j-api@1.7.30",
+        "pkg:maven/com.google.protobuf/protobuf-java@2.5.0",
+        "pkg:maven/commons-io/commons-io@2.5",
+        "pkg:maven/log4j/log4j@1.2.17",
+        "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.10.1",
+        "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.10.1",
+        "pkg:maven/com.fasterxml.jackson.module/jackson-module-jaxb-annotations@2.9.5",
+        "pkg:maven/com.fasterxml.jackson.jaxrs/jackson-jaxrs-json-provider@2.9.5"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/com.esotericsoftware/minlog@1.3.0",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/com.fasterxml.jackson.jaxrs/jackson-jaxrs-json-provider@2.9.5",
+      "dependsOn" : [
+        "pkg:maven/com.fasterxml.jackson.jaxrs/jackson-jaxrs-base@2.9.5",
+        "pkg:maven/com.fasterxml.jackson.module/jackson-module-jaxb-annotations@2.9.5"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.checkerframework/checker-qual@3.5.0",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.commons/commons-compress@1.8.1",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.glassfish.hk2/hk2-api@2.6.1",
+      "dependsOn" : [
+        "pkg:maven/org.glassfish.hk2.external/jakarta.inject@2.6.1",
+        "pkg:maven/org.glassfish.hk2/hk2-utils@2.6.1",
+        "pkg:maven/org.glassfish.hk2.external/aopalliance-repackaged@2.6.1"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.hadoop/hadoop-auth@3.2.0",
+      "dependsOn" : [
+        "pkg:maven/org.slf4j/slf4j-api@1.7.30",
+        "pkg:maven/commons-codec/commons-codec@1.9",
+        "pkg:maven/log4j/log4j@1.2.17",
+        "pkg:maven/org.apache.httpcomponents/httpclient@4.5.2",
+        "pkg:maven/com.nimbusds/nimbus-jose-jwt@4.41.1",
+        "pkg:maven/net.minidev/json-smart@2.3",
+        "pkg:maven/org.apache.curator/curator-framework@2.13.0",
+        "pkg:maven/org.apache.kerby/kerb-simplekdc@1.0.1",
+        "pkg:maven/com.google.guava/guava@11.0.2"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.curator/curator-client@2.12.0",
+      "dependsOn" : [
+        "pkg:maven/com.google.guava/guava@11.0.2",
+        "pkg:maven/org.slf4j/slf4j-api@1.7.30"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/jakarta.servlet/jakarta.servlet-api@4.0.3",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.glassfish.jersey.containers/jersey-container-servlet@2.30",
+      "dependsOn" : [
+        "pkg:maven/org.glassfish.jersey.containers/jersey-container-servlet-core@2.30",
+        "pkg:maven/org.glassfish.jersey.core/jersey-common@2.30",
+        "pkg:maven/org.glassfish.jersey.core/jersey-server@2.30",
+        "pkg:maven/jakarta.ws.rs/jakarta.ws.rs-api@2.1.6"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/com.google.re2j/re2j@1.1",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.hadoop/hadoop-client@3.2.0",
+      "dependsOn" : [
+        "pkg:maven/org.apache.hadoop/hadoop-common@3.2.0",
+        "pkg:maven/org.apache.hadoop/hadoop-hdfs-client@3.2.0",
+        "pkg:maven/org.apache.hadoop/hadoop-yarn-api@3.2.0",
+        "pkg:maven/org.apache.hadoop/hadoop-yarn-client@3.2.0",
+        "pkg:maven/org.apache.hadoop/hadoop-mapreduce-client-core@3.2.0",
+        "pkg:maven/org.apache.hadoop/hadoop-mapreduce-client-jobclient@3.2.0",
+        "pkg:maven/org.apache.hadoop/hadoop-annotations@3.2.0"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.kerby/kerb-crypto@1.0.1",
+      "dependsOn" : [
+        "pkg:maven/org.apache.kerby/kerby-util@1.0.1",
+        "pkg:maven/org.apache.kerby/kerb-core@1.0.1"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.glassfish.jersey.containers/jersey-container-servlet-core@2.30",
+      "dependsOn" : [
+        "pkg:maven/org.glassfish.hk2.external/jakarta.inject@2.6.1",
+        "pkg:maven/org.glassfish.jersey.core/jersey-common@2.30",
+        "pkg:maven/org.glassfish.jersey.core/jersey-server@2.30",
+        "pkg:maven/jakarta.ws.rs/jakarta.ws.rs-api@2.1.6"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/com.thoughtworks.paranamer/paranamer@2.8",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.hadoop/hadoop-annotations@3.2.0",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.spark/spark-core_2.12@3.1.2",
+      "dependsOn" : [
+        "pkg:maven/com.thoughtworks.paranamer/paranamer@2.8",
+        "pkg:maven/org.apache.avro/avro@1.8.2",
+        "pkg:maven/org.apache.avro/avro-mapred@1.8.2",
+        "pkg:maven/com.twitter/chill_2.12@0.9.5",
+        "pkg:maven/com.twitter/chill-java@0.9.5",
+        "pkg:maven/org.apache.xbean/xbean-asm7-shaded@4.15",
+        "pkg:maven/org.apache.hadoop/hadoop-client@3.2.0",
+        "pkg:maven/org.apache.spark/spark-launcher_2.12@3.1.2",
+        "pkg:maven/org.apache.spark/spark-kvstore_2.12@3.1.2",
+        "pkg:maven/org.apache.spark/spark-network-common_2.12@3.1.2",
+        "pkg:maven/org.apache.spark/spark-network-shuffle_2.12@3.1.2",
+        "pkg:maven/org.apache.spark/spark-unsafe_2.12@3.1.2",
+        "pkg:maven/javax.activation/activation@1.1.1",
+        "pkg:maven/org.apache.curator/curator-recipes@2.13.0",
+        "pkg:maven/org.apache.zookeeper/zookeeper@3.4.14",
+        "pkg:maven/jakarta.servlet/jakarta.servlet-api@4.0.3",
+        "pkg:maven/org.apache.commons/commons-lang3@3.10",
+        "pkg:maven/org.apache.commons/commons-math3@3.4.1",
+        "pkg:maven/org.apache.commons/commons-text@1.6",
+        "pkg:maven/com.google.code.findbugs/jsr305@3.0.0",
+        "pkg:maven/org.slf4j/slf4j-api@1.7.30",
+        "pkg:maven/org.slf4j/jul-to-slf4j@1.7.30",
+        "pkg:maven/org.slf4j/jcl-over-slf4j@1.7.30",
+        "pkg:maven/log4j/log4j@1.2.17",
+        "pkg:maven/org.slf4j/slf4j-log4j12@1.7.30",
+        "pkg:maven/com.ning/compress-lzf@1.0.3",
+        "pkg:maven/org.xerial.snappy/snappy-java@1.1.8.2",
+        "pkg:maven/org.lz4/lz4-java@1.7.1",
+        "pkg:maven/com.github.luben/zstd-jni@1.4.8-1",
+        "pkg:maven/org.roaringbitmap/RoaringBitmap@0.9.0",
+        "pkg:maven/commons-net/commons-net@3.1",
+        "pkg:maven/org.scala-lang.modules/scala-xml_2.12@1.2.0",
+        "pkg:maven/org.scala-lang/scala-library@2.12.10",
+        "pkg:maven/org.scala-lang/scala-reflect@2.12.10",
+        "pkg:maven/org.json4s/json4s-jackson_2.12@3.7.0-M5",
+        "pkg:maven/org.glassfish.jersey.core/jersey-client@2.30",
+        "pkg:maven/org.glassfish.jersey.core/jersey-common@2.30",
+        "pkg:maven/org.glassfish.jersey.core/jersey-server@2.30",
+        "pkg:maven/org.glassfish.jersey.containers/jersey-container-servlet@2.30",
+        "pkg:maven/org.glassfish.jersey.containers/jersey-container-servlet-core@2.30",
+        "pkg:maven/org.glassfish.jersey.inject/jersey-hk2@2.30",
+        "pkg:maven/io.netty/netty-all@4.1.51.Final",
+        "pkg:maven/com.clearspring.analytics/stream@2.9.6",
+        "pkg:maven/io.dropwizard.metrics/metrics-core@4.1.1",
+        "pkg:maven/io.dropwizard.metrics/metrics-jvm@4.1.1",
+        "pkg:maven/io.dropwizard.metrics/metrics-json@4.1.1",
+        "pkg:maven/io.dropwizard.metrics/metrics-graphite@4.1.1",
+        "pkg:maven/io.dropwizard.metrics/metrics-jmx@4.1.1",
+        "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.10.1",
+        "pkg:maven/com.fasterxml.jackson.module/jackson-module-scala_2.12@2.10.0",
+        "pkg:maven/org.apache.ivy/ivy@2.4.0",
+        "pkg:maven/oro/oro@2.0.8",
+        "pkg:maven/net.razorvine/pyrolite@4.30",
+        "pkg:maven/net.sf.py4j/py4j@0.10.9",
+        "pkg:maven/org.apache.spark/spark-tags_2.12@3.1.2",
+        "pkg:maven/org.apache.commons/commons-crypto@1.1.0",
+        "pkg:maven/org.spark-project.spark/unused@1.0.0"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.roaringbitmap/RoaringBitmap@0.9.0",
+      "dependsOn" : [
+        "pkg:maven/org.roaringbitmap/shims@0.9.0"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/jakarta.ws.rs/jakarta.ws.rs-api@2.1.6",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.httpcomponents/httpclient@4.5.2",
+      "dependsOn" : [
+        "pkg:maven/org.apache.httpcomponents/httpcore@4.4.4",
+        "pkg:maven/commons-codec/commons-codec@1.9"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.avro/avro-ipc@1.8.2",
+      "dependsOn" : [
+        "pkg:maven/org.apache.avro/avro@1.8.2",
+        "pkg:maven/org.codehaus.jackson/jackson-core-asl@1.9.13",
+        "pkg:maven/org.codehaus.jackson/jackson-mapper-asl@1.9.13",
+        "pkg:maven/org.slf4j/slf4j-api@1.7.30"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.kerby/kerb-simplekdc@1.0.1",
+      "dependsOn" : [
+        "pkg:maven/org.apache.kerby/kerb-client@1.0.1",
+        "pkg:maven/org.apache.kerby/kerb-admin@1.0.1"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/com.fasterxml.jackson.module/jackson-module-paranamer@2.10.0",
+      "dependsOn" : [
+        "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.10.1",
+        "pkg:maven/com.thoughtworks.paranamer/paranamer@2.8"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.flywaydb/flyway-core@7.1.1",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.htrace/htrace-core4@4.1.0-incubating",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.hadoop/hadoop-mapreduce-client-jobclient@3.2.0",
+      "dependsOn" : [
+        "pkg:maven/org.apache.hadoop/hadoop-mapreduce-client-common@3.2.0",
+        "pkg:maven/com.google.protobuf/protobuf-java@2.5.0",
+        "pkg:maven/org.slf4j/slf4j-api@1.7.30"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.hadoop/hadoop-common@3.2.0",
+      "dependsOn" : [
+        "pkg:maven/org.apache.hadoop/hadoop-annotations@3.2.0",
+        "pkg:maven/com.google.guava/guava@11.0.2",
+        "pkg:maven/commons-cli/commons-cli@1.2",
+        "pkg:maven/org.apache.commons/commons-math3@3.4.1",
+        "pkg:maven/org.apache.httpcomponents/httpclient@4.5.2",
+        "pkg:maven/commons-codec/commons-codec@1.9",
+        "pkg:maven/commons-io/commons-io@2.5",
+        "pkg:maven/commons-net/commons-net@3.1",
+        "pkg:maven/commons-collections/commons-collections@3.2.2",
+        "pkg:maven/org.eclipse.jetty/jetty-servlet@9.3.24.v20180605",
+        "pkg:maven/javax.servlet.jsp/jsp-api@2.1",
+        "pkg:maven/log4j/log4j@1.2.17",
+        "pkg:maven/commons-beanutils/commons-beanutils@1.9.3",
+        "pkg:maven/org.apache.commons/commons-configuration2@2.1.1",
+        "pkg:maven/org.apache.commons/commons-lang3@3.10",
+        "pkg:maven/org.apache.commons/commons-text@1.6",
+        "pkg:maven/org.slf4j/slf4j-api@1.7.30",
+        "pkg:maven/org.apache.avro/avro@1.8.2",
+        "pkg:maven/com.google.re2j/re2j@1.1",
+        "pkg:maven/com.google.protobuf/protobuf-java@2.5.0",
+        "pkg:maven/com.google.code.gson/gson@2.2.4",
+        "pkg:maven/org.apache.hadoop/hadoop-auth@3.2.0",
+        "pkg:maven/org.apache.curator/curator-client@2.12.0",
+        "pkg:maven/org.apache.curator/curator-recipes@2.13.0",
+        "pkg:maven/com.google.code.findbugs/jsr305@3.0.0",
+        "pkg:maven/org.apache.htrace/htrace-core4@4.1.0-incubating",
+        "pkg:maven/org.apache.commons/commons-compress@1.8.1",
+        "pkg:maven/org.apache.kerby/kerb-simplekdc@1.0.1",
+        "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.10.1",
+        "pkg:maven/org.codehaus.woodstox/stax2-api@3.1.4",
+        "pkg:maven/com.fasterxml.woodstox/woodstox-core@5.0.3",
+        "pkg:maven/dnsjava/dnsjava@2.1.7"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.postgresql/postgresql@42.3.2",
+      "dependsOn" : [
+        "pkg:maven/org.checkerframework/checker-qual@3.5.0"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/oro/oro@2.0.8",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/com.google.protobuf/protobuf-java@2.5.0",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.10.1",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/javax.activation/activation@1.1.1",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.commons/commons-text@1.6",
+      "dependsOn" : [
+        "pkg:maven/org.apache.commons/commons-lang3@3.10"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.glassfish.jersey.inject/jersey-hk2@2.30",
+      "dependsOn" : [
+        "pkg:maven/org.glassfish.jersey.core/jersey-common@2.30",
+        "pkg:maven/org.glassfish.hk2/hk2-locator@2.6.1",
+        "pkg:maven/org.javassist/javassist@3.25.0-GA"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/commons-net/commons-net@3.1",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.scala-lang/scala-reflect@2.12.10",
+      "dependsOn" : [
+        "pkg:maven/org.scala-lang/scala-library@2.12.10"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.commons/commons-math3@3.4.1",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.tukaani/xz@1.5",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.codehaus.woodstox/stax2-api@3.1.4",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/com.jimmy.test/pom_test_repo@1.0.0-SNAPSHOT",
+      "dependsOn" : [
+        "pkg:maven/org.postgresql/postgresql@42.3.2",
+        "pkg:maven/log4j/log4j@1.2.17",
+        "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.10.1",
+        "pkg:maven/org.apache.spark/spark-core_2.12@3.1.2",
+        "pkg:maven/org.flywaydb/flyway-core@7.1.1"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.eclipse.jetty/jetty-servlet@9.3.24.v20180605",
+      "dependsOn" : [
+        "pkg:maven/org.eclipse.jetty/jetty-security@9.3.24.v20180605"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/commons-cli/commons-cli@1.2",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/com.twitter/chill_2.12@0.9.5",
+      "dependsOn" : [
+        "pkg:maven/org.scala-lang/scala-library@2.12.10",
+        "pkg:maven/com.twitter/chill-java@0.9.5",
+        "pkg:maven/com.esotericsoftware/kryo-shaded@4.0.2",
+        "pkg:maven/org.apache.xbean/xbean-asm7-shaded@4.15"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.objenesis/objenesis@2.5.1",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/io.netty/netty-all@4.1.51.Final",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/dnsjava/dnsjava@2.1.7",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.kerby/token-provider@1.0.1",
+      "dependsOn" : [
+        "pkg:maven/org.apache.kerby/kerb-core@1.0.1",
+        "pkg:maven/com.nimbusds/nimbus-jose-jwt@4.41.1"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.kerby/kerby-xdr@1.0.1",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.hadoop/hadoop-mapreduce-client-common@3.2.0",
+      "dependsOn" : [
+        "pkg:maven/org.apache.hadoop/hadoop-yarn-common@3.2.0",
+        "pkg:maven/org.apache.hadoop/hadoop-yarn-client@3.2.0",
+        "pkg:maven/org.apache.hadoop/hadoop-mapreduce-client-core@3.2.0",
+        "pkg:maven/com.google.protobuf/protobuf-java@2.5.0",
+        "pkg:maven/org.slf4j/slf4j-api@1.7.30"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/javax.xml.bind/jaxb-api@2.2.11",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/javax.servlet.jsp/jsp-api@2.1",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/com.ning/compress-lzf@1.0.3",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.kerby/kerb-core@1.0.1",
+      "dependsOn" : [
+        "pkg:maven/org.apache.kerby/kerby-pkix@1.0.1"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.spark/spark-network-shuffle_2.12@3.1.2",
+      "dependsOn" : [
+        "pkg:maven/org.apache.spark/spark-network-common_2.12@3.1.2",
+        "pkg:maven/io.dropwizard.metrics/metrics-core@4.1.1",
+        "pkg:maven/org.apache.spark/spark-tags_2.12@3.1.2",
+        "pkg:maven/org.roaringbitmap/RoaringBitmap@0.9.0",
+        "pkg:maven/org.spark-project.spark/unused@1.0.0"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/com.squareup.okhttp/okhttp@2.7.5",
+      "dependsOn" : [
+        "pkg:maven/com.squareup.okio/okio@1.6.0"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.lz4/lz4-java@1.7.1",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.httpcomponents/httpcore@4.4.4",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.spark-project.spark/unused@1.0.0",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/commons-beanutils/commons-beanutils@1.9.3",
+      "dependsOn" : [
+        "pkg:maven/commons-collections/commons-collections@3.2.2"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.kerby/kerby-config@1.0.1",
+      "dependsOn" : [
+        "pkg:maven/org.slf4j/slf4j-api@1.7.30"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.kerby/kerby-util@1.0.1",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.json4s/json4s-jackson_2.12@3.7.0-M5",
+      "dependsOn" : [
+        "pkg:maven/org.scala-lang/scala-library@2.12.10",
+        "pkg:maven/org.json4s/json4s-core_2.12@3.7.0-M5"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/com.nimbusds/nimbus-jose-jwt@4.41.1",
+      "dependsOn" : [
+        "pkg:maven/com.github.stephenc.jcip/jcip-annotations@1.0-1"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/net.minidev/accessors-smart@1.2",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.eclipse.jetty/jetty-util@9.3.24.v20180605",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/com.google.code.findbugs/jsr305@3.0.0",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/io.dropwizard.metrics/metrics-graphite@4.1.1",
+      "dependsOn" : [
+        "pkg:maven/io.dropwizard.metrics/metrics-core@4.1.1",
+        "pkg:maven/org.slf4j/slf4j-api@1.7.30"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.codehaus.jackson/jackson-mapper-asl@1.9.13",
+      "dependsOn" : [
+        "pkg:maven/org.codehaus.jackson/jackson-core-asl@1.9.13"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.commons/commons-crypto@1.1.0",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/com.fasterxml.woodstox/woodstox-core@5.0.3",
+      "dependsOn" : [
+        "pkg:maven/org.codehaus.woodstox/stax2-api@3.1.4"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/net.razorvine/pyrolite@4.30",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.glassfish.jersey.media/jersey-media-jaxb@2.30",
+      "dependsOn" : [
+        "pkg:maven/org.glassfish.jersey.core/jersey-common@2.30",
+        "pkg:maven/org.glassfish.hk2.external/jakarta.inject@2.6.1",
+        "pkg:maven/org.glassfish.hk2/osgi-resource-locator@1.0.3"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.hadoop/hadoop-hdfs-client@3.2.0",
+      "dependsOn" : [
+        "pkg:maven/com.squareup.okhttp/okhttp@2.7.5",
+        "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.10.1",
+        "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.10.1"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/com.esotericsoftware/kryo-shaded@4.0.2",
+      "dependsOn" : [
+        "pkg:maven/com.esotericsoftware/minlog@1.3.0",
+        "pkg:maven/org.objenesis/objenesis@2.5.1"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.fusesource.leveldbjni/leveldbjni-all@1.8",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/net.minidev/json-smart@2.3",
+      "dependsOn" : [
+        "pkg:maven/net.minidev/accessors-smart@1.2"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.glassfish.hk2/hk2-locator@2.6.1",
+      "dependsOn" : [
+        "pkg:maven/org.glassfish.hk2.external/jakarta.inject@2.6.1",
+        "pkg:maven/org.glassfish.hk2.external/aopalliance-repackaged@2.6.1",
+        "pkg:maven/org.glassfish.hk2/hk2-api@2.6.1",
+        "pkg:maven/org.glassfish.hk2/hk2-utils@2.6.1"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.json4s/json4s-scalap_2.12@3.7.0-M5",
+      "dependsOn" : [
+        "pkg:maven/org.scala-lang/scala-library@2.12.10"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/io.dropwizard.metrics/metrics-jvm@4.1.1",
+      "dependsOn" : [
+        "pkg:maven/io.dropwizard.metrics/metrics-core@4.1.1",
+        "pkg:maven/org.slf4j/slf4j-api@1.7.30"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.kerby/kerb-server@1.0.1",
+      "dependsOn" : [
+        "pkg:maven/org.apache.kerby/kerb-common@1.0.1",
+        "pkg:maven/org.apache.kerby/kerb-identity@1.0.1"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/commons-codec/commons-codec@1.9",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.glassfish.hk2/osgi-resource-locator@1.0.3",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.eclipse.jetty/jetty-security@9.3.24.v20180605",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/com.fasterxml.jackson.jaxrs/jackson-jaxrs-base@2.9.5",
+      "dependsOn" : [
+        "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.10.1",
+        "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.10.1"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.kerby/kerb-common@1.0.1",
+      "dependsOn" : [
+        "pkg:maven/org.apache.kerby/kerby-config@1.0.1",
+        "pkg:maven/org.apache.kerby/kerb-crypto@1.0.1",
+        "pkg:maven/commons-io/commons-io@2.5"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/com.squareup.okio/okio@1.6.0",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.avro/avro@1.8.2",
+      "dependsOn" : [
+        "pkg:maven/org.codehaus.jackson/jackson-core-asl@1.9.13",
+        "pkg:maven/org.codehaus.jackson/jackson-mapper-asl@1.9.13",
+        "pkg:maven/com.thoughtworks.paranamer/paranamer@2.8",
+        "pkg:maven/org.xerial.snappy/snappy-java@1.1.8.2",
+        "pkg:maven/org.apache.commons/commons-compress@1.8.1",
+        "pkg:maven/org.tukaani/xz@1.5",
+        "pkg:maven/org.slf4j/slf4j-api@1.7.30"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.glassfish.jersey.core/jersey-server@2.30",
+      "dependsOn" : [
+        "pkg:maven/org.glassfish.jersey.core/jersey-common@2.30",
+        "pkg:maven/org.glassfish.jersey.core/jersey-client@2.30",
+        "pkg:maven/jakarta.ws.rs/jakarta.ws.rs-api@2.1.6",
+        "pkg:maven/org.glassfish.jersey.media/jersey-media-jaxb@2.30",
+        "pkg:maven/jakarta.annotation/jakarta.annotation-api@1.3.5",
+        "pkg:maven/org.glassfish.hk2.external/jakarta.inject@2.6.1",
+        "pkg:maven/jakarta.validation/jakarta.validation-api@2.0.2"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/net.sf.py4j/py4j@0.10.9",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.avro/avro-mapred@1.8.2",
+      "dependsOn" : [
+        "pkg:maven/org.apache.avro/avro-ipc@1.8.2",
+        "pkg:maven/org.codehaus.jackson/jackson-core-asl@1.9.13",
+        "pkg:maven/org.codehaus.jackson/jackson-mapper-asl@1.9.13",
+        "pkg:maven/commons-codec/commons-codec@1.9",
+        "pkg:maven/org.slf4j/slf4j-api@1.7.30"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/commons-io/commons-io@2.5",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.slf4j/slf4j-log4j12@1.7.30",
+      "dependsOn" : [
+        "pkg:maven/org.slf4j/slf4j-api@1.7.30",
+        "pkg:maven/log4j/log4j@1.2.17"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.scala-lang.modules/scala-xml_2.12@1.2.0",
+      "dependsOn" : [
+        "pkg:maven/org.scala-lang/scala-library@2.12.10"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.hadoop/hadoop-yarn-api@3.2.0",
+      "dependsOn" : [
+        "pkg:maven/com.google.guava/guava@11.0.2",
+        "pkg:maven/javax.xml.bind/jaxb-api@2.2.11",
+        "pkg:maven/com.google.protobuf/protobuf-java@2.5.0",
+        "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.10.1"
+      ]
+    }
+  ]
+}
