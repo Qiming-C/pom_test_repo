@@ -58,8 +58,8 @@
 </dependency>
 
 <dependency>
-  <groupId>org.fake.jimmy</groupId>
-  <artifactId>fake-artifact</artifactId>
+  <groupId>org.fake.chen</groupId>
+  <artifactId>fake-artifact-2</artifactId>
   <version>1.1.1</version>
 </dependency>
 
@@ -67,6 +67,13 @@
   <groupId>org.fake.jimmy</groupId>
   <artifactId>fake-artifact</artifactId>
   <version>Invalid</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/xalan/xalan -->
+<dependency>
+  <groupId>xalan</groupId>
+  <artifactId>xalan</artifactId>
+  <version>2.5.D1</version>
 </dependency>
 
 <!-- https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-common -->
