@@ -6933,3 +6933,48 @@ Caused by: org.apache.http.client.HttpResponseException: HTTPS Required (501)
 15:15:46.886 [main] DEBUG c.s.lift.scanner.LiftBomGenerator - Found 5 direct dependencies: [pkg:maven/org.postgresql/postgresql@42.3.2, pkg:maven/log4j/log4j@1.2.17, pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.10.1, pkg:maven/org.apache.spark/spark-core_2.12@3.1.2, pkg:maven/org.flywaydb/flyway-core@7.1.1]
 15:15:46.886 [main] DEBUG c.s.lift.scanner.LiftBomGenerator - Getting diff lines for commits null..null
 15:15:46.887 [main] DEBUG c.s.lift.scanner.LiftBomGenerator - source info: pkg:maven/org.postgresql/postgresql@42.3.2:, pkg:maven/log4j/log4j@1.2.17:, pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.10.1:, pkg:maven/org.apache.spark/spark-core_2.12@3.1.2:, pkg:maven/org.flywaydb/flyway-core@7.1.1:
+18:17:34.638 [main] INFO  c.s.l.s.e.maven.UserSettingsManager - Using temporary directory for local repository: /tmp/lift-334550837521299092
+18:17:34.763 [main] INFO  com.sonatype.lift.scanner.Scanner - Processing manifest files for MAVEN
+18:17:34.824 [main] INFO  c.s.l.s.e.m.r.DependencyHierarchyManager - Building dependency tree for org.flywaydb:flyway-core::7.1.0
+18:17:34.828 [main] TRACE c.s.l.s.e.m.r.Slf4jRepositoryListener - Resolved artifact org.flywaydb:flyway-core:pom:7.1.0
+18:17:34.830 [main] TRACE c.s.l.s.e.m.r.Slf4jRepositoryListener - Downloading artifact org.flywaydb:flyway-core:pom:7.1.0 from central (https://repo1.maven.org/maven2/, default, releases)
+18:17:34.918 [main] TRACE c.s.l.s.e.m.r.DependencyTreeTransferListener - Downloading: https://repo1.maven.org/maven2/org/flywaydb/flyway-core/7.1.0/flyway-core-7.1.0.pom
+18:17:35.116 [main] TRACE c.s.l.s.e.m.r.DependencyTreeTransferListener - 2/8 KB   
+18:17:35.117 [main] TRACE c.s.l.s.e.m.r.DependencyTreeTransferListener - 3/8 KB   
+18:17:35.118 [main] TRACE c.s.l.s.e.m.r.DependencyTreeTransferListener - 5/8 KB   
+18:17:35.118 [main] TRACE c.s.l.s.e.m.r.DependencyTreeTransferListener - 6/8 KB   
+18:17:35.119 [main] TRACE c.s.l.s.e.m.r.DependencyTreeTransferListener - 7/8 KB   
+18:17:35.119 [main] TRACE c.s.l.s.e.m.r.DependencyTreeTransferListener - 8/8 KB   
+18:17:35.138 [main] TRACE c.s.l.s.e.m.r.DependencyTreeTransferListener -          
+18:17:35.143 [main] TRACE c.s.l.s.e.m.r.DependencyTreeTransferListener - Downloaded: https://repo1.maven.org/maven2/org/flywaydb/flyway-core/7.1.0/flyway-core-7.1.0.pom (8 KB at 35.9 KB/sec)
+18:17:35.147 [main] TRACE c.s.l.s.e.m.r.Slf4jRepositoryListener - Downloaded artifact org.flywaydb:flyway-core:pom:7.1.0 from central (https://repo1.maven.org/maven2/, default, releases)
+18:17:35.147 [main] TRACE c.s.l.s.e.m.r.Slf4jRepositoryListener - Resolved artifact org.flywaydb:flyway-core:pom:7.1.0 from central (https://repo1.maven.org/maven2/, default, releases)
+18:17:35.151 [main] TRACE c.s.l.s.e.m.r.Slf4jRepositoryListener - Resolved artifact org.flywaydb:flyway-parent:pom:7.1.0
+18:17:35.151 [main] TRACE c.s.l.s.e.m.r.Slf4jRepositoryListener - Downloading artifact org.flywaydb:flyway-parent:pom:7.1.0 from central (https://repo1.maven.org/maven2/, default, releases)
+18:17:35.151 [main] TRACE c.s.l.s.e.m.r.DependencyTreeTransferListener - Downloading: https://repo1.maven.org/maven2/org/flywaydb/flyway-parent/7.1.0/flyway-parent-7.1.0.pom
+18:17:35.226 [main] TRACE c.s.l.s.e.m.r.DependencyTreeTransferListener - 2/29 KB   
+18:17:35.226 [main] TRACE c.s.l.s.e.m.r.DependencyTreeTransferListener - 3/29 KB   
+18:17:35.226 [main] TRACE c.s.l.s.e.m.r.DependencyTreeTransferListener - 5/29 KB   
+18:17:35.227 [main] TRACE c.s.l.s.e.m.r.DependencyTreeTransferListener - 6/29 KB   
+18:17:35.227 [main] TRACE c.s.l.s.e.m.r.DependencyTreeTransferListener - 7/29 KB   
+18:17:35.227 [main] TRACE c.s.l.s.e.m.r.DependencyTreeTransferListener - 9/29 KB   
+18:17:35.228 [main] TRACE c.s.l.s.e.m.r.DependencyTreeTransferListener - 10/29 KB   
+18:17:35.228 [main] TRACE c.s.l.s.e.m.r.DependencyTreeTransferListener - 11/29 KB   
+18:17:35.228 [main] TRACE c.s.l.s.e.m.r.DependencyTreeTransferListener - 13/29 KB   
+18:17:35.229 [main] TRACE c.s.l.s.e.m.r.DependencyTreeTransferListener - 14/29 KB   
+18:17:35.229 [main] TRACE c.s.l.s.e.m.r.DependencyTreeTransferListener - 15/29 KB   
+18:17:35.229 [main] TRACE c.s.l.s.e.m.r.DependencyTreeTransferListener - 17/29 KB   
+18:17:35.229 [main] TRACE c.s.l.s.e.m.r.DependencyTreeTransferListener - 18/29 KB   
+18:17:35.229 [main] TRACE c.s.l.s.e.m.r.DependencyTreeTransferListener - 19/29 KB   
+18:17:35.229 [main] TRACE c.s.l.s.e.m.r.DependencyTreeTransferListener - 21/29 KB   
+18:17:35.230 [main] TRACE c.s.l.s.e.m.r.DependencyTreeTransferListener - 22/29 KB   
+18:17:35.230 [main] TRACE c.s.l.s.e.m.r.DependencyTreeTransferListener - 23/29 KB   
+18:17:35.230 [main] TRACE c.s.l.s.e.m.r.DependencyTreeTransferListener - 25/29 KB   
+18:17:35.230 [main] TRACE c.s.l.s.e.m.r.DependencyTreeTransferListener - 26/29 KB   
+18:17:35.231 [main] TRACE c.s.l.s.e.m.r.DependencyTreeTransferListener - 27/29 KB   
+18:17:35.231 [main] TRACE c.s.l.s.e.m.r.DependencyTreeTransferListener - 29/29 KB   
+18:17:35.231 [main] TRACE c.s.l.s.e.m.r.DependencyTreeTransferListener - 29/29 KB   
+18:17:35.248 [main] TRACE c.s.l.s.e.m.r.DependencyTreeTransferListener -            
+18:17:35.248 [main] TRACE c.s.l.s.e.m.r.DependencyTreeTransferListener - Downloaded: https://repo1.maven.org/maven2/org/flywaydb/flyway-parent/7.1.0/flyway-parent-7.1.0.pom (29 KB at 298.7 KB/sec)
+18:17:35.249 [main] TRACE c.s.l.s.e.m.r.Slf4jRepositoryListener - Downloaded artifact org.flywaydb:flyway-parent:pom:7.1.0 from central (https://repo1.maven.org/maven2/, default, releases)
+18:17:35.249 [main] TRACE c.s.l.s.e.m.r.Slf4jRepositoryListener - Resolved artifact org.flywaydb:flyway-parent:pom:7.1.0 from central (https://repo1.maven.org/maven2/, default, releases)
